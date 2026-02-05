@@ -1,4 +1,4 @@
-const containsDuplicate = function (nums: number[]) {
+function containsDuplicate(nums: number[]) {
     console.log("The Length Of Your Array = " + nums.length + "\n")
     const seen: { [key: number]: boolean } = {}
 
@@ -16,3 +16,5 @@ const containsDuplicate = function (nums: number[]) {
 
 const result: boolean = containsDuplicate([2, 7, 11, 15])
 console.log(result)
+
+export { }

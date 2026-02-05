@@ -74,4 +74,34 @@ class Solution {
     }
     return firstUniqueIndex === Infinity ? -1 : firstUniqueIndex;
   }
+  merge = function (nums1, m, nums2, n) {
+    let i = m - 1;
+    let j = n - 1;
+    let k = m + n - 1;
+
+    while (j >= 0) {
+      if (i >= 0 && nums1[i] > nums2[j]) {
+        nums1[k] = nums1[i];
+        i--;
+      } else {
+        nums1[k] = nums2[j];
+        j--;
+      }
+      k--;
+    }
+  };
+
+  reverseString = function (s) {
+    let left = 0;
+    let right = s.length - 1;
+
+    while (left < right) {
+      let temp = s[left];
+      s[left] = s[right];
+      s[right] = temp;
+
+      left++;
+      right--;
+    }
+  };
 }
