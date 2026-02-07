@@ -31,18 +31,18 @@ A curated collection of LeetCode challenges solved across multiple languages. Ea
 | 16 | [Reverse String](https://leetcode.com/problems/reverse-string/) | JS | 🟢 Easy | ✅ Solved |
 | 17 | [Best Time to Buy Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | TS | 🟢 Easy | ✅ Solved |
 | 18 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | PY | 🟡 Medium | ✅ Solved |
-| 19 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | | 🟡 Medium | |
-| 20 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | | 🟡 Medium | |
-| 21 | [Plus One](https://leetcode.com/problems/plus-one/) | | 🟢 Easy | |
-| 22 | [Single Number](https://leetcode.com/problems/single-number/) | | 🟢 Easy | |
-| 23 | [Majority Element](https://leetcode.com/problems/majority-element/) | | 🟢 Easy | |
-| 24 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | | 🟡 Medium | |
-| 25 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | | 🟡 Medium | |
-| 26 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | | 🟢 Easy | |
-| 27 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | | 🟢 Easy | |
-| 28 | [Missing Number](https://leetcode.com/problems/missing-number/) | | 🟢 Easy | |
-| 29 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | | 🟢 Easy | |
-| 30 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | | 🟢 Easy | |
+| 19 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | PY | 🟡 Medium | ✅ Solved |
+| 20 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | TS | 🟡 Medium | ✅ Solved |
+| 21 | [Plus One](https://leetcode.com/problems/plus-one/) | JS | 🟢 Easy | ✅ Solved |
+| 22 | [Single Number](https://leetcode.com/problems/single-number/) | PY | 🟢 Easy | ✅ Solved |
+| 23 | [Majority Element](https://leetcode.com/problems/majority-element/) | TS | 🟢 Easy | ✅ Solved |
+| 24 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | JS | 🟡 Medium | ✅ Solved |
+| 25 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | PY | 🟡 Medium | ✅ Solved |
+| 26 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | TS | 🟢 Easy | ✅ Solved |
+| 27 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | JS | 🟢 Easy | ✅ Solved |
+| 28 | [Missing Number](https://leetcode.com/problems/missing-number/) | PY | 🟢 Easy | ✅ Solved |
+| 29 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | TS | 🟢 Easy | ✅ Solved |
+| 30 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | JS | 🟢 Easy | ✅ Solved |
 ---
 
 ## 📂 Project Structure
