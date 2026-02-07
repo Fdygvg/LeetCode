@@ -109,6 +109,62 @@ class Solution {
 
     return maxProfit;
   }
+
+  minSubArrayLen(target: number, nums: number[]): number {
+    let minLength = Infinity;
+    let sum = 0;
+    let left = 0;
+    for (let right = 0; right < nums.length; right++) {
+      sum += nums[right];
+      while (sum >= target) {
+        minLength = Math.min(minLength, right - left + 1);
+        sum -= nums[left];
+        left++;
+      }
+    }
+    return minLength === Infinity ? 0 : minLength;
+  }
+
+  majorityElement(nums: number[]): number {
+    let candidate: number | null = null;
+    let count = 0;
+    for (let num = 0; num < nums.length; num++) {
+      if (count === 0) {
+        candidate = nums[num];
+        count = 1;
+      } else if (nums[num] === candidate) {
+        count++;
+      } else {
+        count--;
+      }
+    }
+    return candidate!;
+  }
+
+
+  isPalindrome(s: number): boolean {
+    if(Math.sign(s) === -1)
+        return false
+
+    const str = String(s)
+    
+    let left: number = 0;
+    let right: number = str.length - 1 
+
+    while (left < right) {
+        if (str[left] !== str[right]) {
+            return false
+        }
+        left++
+        right--
+    }
+    return true
 }
+
+
+
+}
+
+  
 
 export { Solution };

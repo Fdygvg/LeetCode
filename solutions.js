@@ -104,4 +104,68 @@ class Solution {
       right--;
     }
   };
+
+  lengthOfLongestSubstring = function (s) {
+    let seen = new Set();
+    let left = 0;
+
+    let maxLength = 0;
+
+    for (let right = 0; right < s.length; right++) {
+      while (seen.has(s[right])) {
+        seen.delete(s[left]);
+        left++;
+      }
+      seen.add(s[right]);
+
+      maxLength = Math.max(maxLength, right - left + 1);
+    }
+    return maxLength;
+  };
+
+  singleNumber(nums) {
+    let result = 0;
+    for (let num of nums) {
+      result ^= num;
+    }
+    return result;
+  }
+
+  reverse = function (x) {
+    const sign = Math.sign(x);
+
+    const rev =
+      parseInt(String(Math.abs(x)).split("").reverse().join("")) * sign;
+
+    if (rev < -2147483648 || rev > 2147483647) return 0;
+
+    return rev;
+  };
+
+  countBits(n) {
+    const res = new Array(n + 1).fill(0);
+
+    for (let i = 1; i <= n; i++) {
+      res[i] = res[i >> 1] + (i & 1);
+    }
+
+    return res;
+  }
+  
+  searchInsert(nums, target) {
+    let left = 0;
+    let right = nums.length - 1;
+
+    while (left <= right) {
+      let mid = Math.floor((left + right) / 2);
+
+      if (nums[mid] == target) return mid;
+      else if (nums[mid] < target) {
+        left = mid + 1;
+      } else {
+        right = mid - 1;
+      }
+    }
+    return left;
+  }
 }
